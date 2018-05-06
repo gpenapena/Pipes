@@ -26,5 +26,6 @@ export class AppComponent {
   }
   );
   public fecha = new Date();
-  public nombre2 = "gonzalo andres peña gutierrez";  
+  public nombre2 = "gonzalo andres peña gutierrez";
+  public activar:boolean = true;
 }

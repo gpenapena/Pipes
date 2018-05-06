@@ -8,12 +8,14 @@ registerLocaleData(localeEs);
 
 
 import { AppComponent } from './app.component';
+import { ContrasenaPipe } from './pipes/contrasena.pipe';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    capitalizadoPipe
+    capitalizadoPipe,
+    ContrasenaPipe
   ],
   imports: [
     BrowserModule
